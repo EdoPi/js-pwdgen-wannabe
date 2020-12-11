@@ -7,7 +7,7 @@ console.log('il ragazzo si chiama ' + nome);
 var cognome = prompt ('grazie ' + nome + ' ora mi diresti anche il tuo cognome?');
 console.log(nome + ' di cognome fa ' + cognome );
 
-var colore = prompt ( nome + cognome + ' Vorrei anche sapere qual\'è il tuo colore preferito');
+var colore = prompt ( nome + ' ' + cognome + ' Vorrei anche sapere qual\'è il tuo colore preferito');
 console.log('il colore preferito di ' + nome + ' ' + cognome + ' è il ' + colore);
 
 var outputContainer = document.getElementById('foglio');
