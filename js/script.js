@@ -12,6 +12,6 @@ console.log('il colore preferito di ' + nome + ' ' + cognome + ' è il ' + color
 
 var outputContainer = document.getElementById('foglio');
 
-outputContainer.innerText = 'Caro ' + nome + 'la tua nuova fortissima Password è:' ;
+outputContainer.innerText = 'Caro ' + nome + ' la tua nuova fortissima Password è:' ;
 outputContainer.append('\n' + nome + cognome + colore + anno);
 outputContainer.append('\nMi raccomando torna presto a trovarci');
