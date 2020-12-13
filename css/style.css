@@ -1,0 +1,19 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#foglio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 1000px;
+  font-size: 100px;
+  text-decoration: underline;
+  background-color: black;
+  color: white;
+  font-style: bold;
+  text-transform: uppercase;
+}
